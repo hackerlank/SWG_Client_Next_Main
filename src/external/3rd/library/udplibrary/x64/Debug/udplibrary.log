@@ -1,0 +1,40 @@
+﻿Build started 5/27/2016 11:02:55 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\3rd\library\udplibrary\udplibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\stlport453\stlport /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE=1 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo".\..\..\..\..\compile\win32\udplibrary\Debug/" /Fd".\..\..\..\..\compile\win32\udplibrary\Debug/vc120.pdb" /Gd /TP /FC /errorReport:prompt UdpLibrary.cpp
+         UdpLibrary.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\time.h(18): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\time.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_epilog.h(10): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_epilog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\time.h(29): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\time.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdlib.h(18): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdlib.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdlib.h(27): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdlib.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdio.h(18): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdio.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdio.h(41): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stdio.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string.h(18): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string.h(32): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stddef.h(18): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stddef.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stddef.h(29): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stddef.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\um\winsock.h(46): error C2371: 'SOCKET' : redefinition; different basic types
+                 c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.hpp(10) : see declaration of 'SOCKET'
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(1780): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(1852): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(1976): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2038): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2223): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2255): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2305): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2501): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2545): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(2623): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(3067): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(3089): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(3338): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(3440): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(3568): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\udplibrary\udplibrary.cpp(3875): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\3rd\library\udplibrary\udplibrary.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.50

@@ -1,0 +1,14 @@
+src/engine/server/library/serverGame/src/shared/generated/Packager.cpp
+src/external/3rd/library/platform/projects/Session/CommonAPI/debug/
+src/external/3rd/library/platform/projects/Session/LoginAPI/debug/
+src/external/3rd/library/platform/utils/Base/debug/
+src/game/server/application/SwgDatabaseServer/src/shared/generated/Decoder.cpp
+src/game/server/application/SwgDatabaseServer/src/shared/generated/Encoder.cpp
+src/game/server/application/SwgDatabaseServer/src/shared/generated/Schema.h
+exe/win32/.exe
+compile/
+src/compile
+*.sdf
+*.opensdf
+*.tlog
+*.suo

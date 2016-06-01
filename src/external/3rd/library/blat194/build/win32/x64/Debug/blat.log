@@ -1,0 +1,48 @@
+﻿Build started 5/27/2016 10:22:21 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\3rd\library\blat194\build\win32\blat.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG_LEVEL=2 /D _LIB /D GENSOCK_STATIC_LINK /D _CRT_SECURE_NO_DEPRECATE=1 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Yc"FirstBlat.h" /Fp".\..\..\..\..\..\..\compile\win32\blat\Debug/blat.pch" /Fo".\..\..\..\..\..\..\compile\win32\blat\Debug/" /Fd".\..\..\..\..\..\..\compile\win32\blat\Debug/vc120.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\FirstBlat.cpp
+         FirstBlat.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG_LEVEL=2 /D _LIB /D GENSOCK_STATIC_LINK /D _CRT_SECURE_NO_DEPRECATE=1 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Yu"FirstBlat.h" /Fp".\..\..\..\..\..\..\compile\win32\blat\Debug/blat.pch" /Fo".\..\..\..\..\..\..\compile\win32\blat\Debug/" /Fd".\..\..\..\..\..\..\compile\win32\blat\Debug/vc120.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\blat.cpp ..\..\src\win32\blatcgi.cpp ..\..\src\win32\GENSOCK\gensock.cpp
+         blat.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(526): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(533): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(548): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(560): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(571): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(594): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(604): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(615): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(616): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(635): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(649): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(732): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(816): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(825): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(834): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(843): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(1089): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(1234): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(1735): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(1763): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(1787): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(2279): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(2368): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(2521): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blat.cpp(2595): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         blatcgi.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\blat194\src\win32\blatcgi.cpp(187): warning C4267: 'initializing' : conversion from 'size_t' to 'DWORD', possible loss of data
+         gensock.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\blat.lib) does not match the Library's OutputFile property value (C:\Users\Kyle\Documents\SWG_Client_Next\src\compile\win32\blat\Debug\blat.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:".\..\..\..\..\..\..\compile\win32\blat\Debug\blat.lib" /NOLOGO /MACHINE:X64 .\..\..\..\..\..\..\compile\win32\blat\Debug/blat.obj
+         .\..\..\..\..\..\..\compile\win32\blat\Debug/blatcgi.obj
+         .\..\..\..\..\..\..\compile\win32\blat\Debug/FirstBlat.obj
+         .\..\..\..\..\..\..\compile\win32\blat\Debug/gensock.obj
+         blat.vcxproj -> C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\blat.lib
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\3rd\library\blat194\build\win32\blat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.64

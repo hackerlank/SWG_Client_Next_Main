@@ -1,0 +1,298 @@
+﻿Build started 5/27/2016 10:22:21 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\engine\client\application\DllExport\build\win32\DllExport.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\..\..\..\external\ours\library\fileInterface\include\public /I..\..\..\..\..\shared\library\sharedDebug\include\public /I..\..\..\..\..\shared\library\sharedFile\include\public /I..\..\..\..\..\shared\library\sharedFoundation\include\public /I..\..\..\..\..\shared\library\sharedFoundationTypes\include\public /I..\..\..\..\..\shared\library\sharedImage\include\public /I..\..\..\..\..\shared\library\sharedMath\include\public /I..\..\..\..\..\shared\library\sharedMemoryManager\include\public /I..\..\..\..\..\shared\library\sharedObject\include\public /I..\..\..\..\..\shared\library\sharedSynchronization\include\public /I..\..\..\..\library\clientGraphics\include\public /Zi /nologo /W4 /WX- /Od /Ob1 /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DIRECT3D8_EXPORTS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo".\..\..\..\..\..\..\compile\win32\DllExport\Debug/" /Fd".\..\..\..\..\..\..\compile\win32\DllExport\Debug/vc120.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\DllExport.cpp
+         DllExport.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(149): warning C4267: 'initializing' : conversion from 'size_t' to 'const uint', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(174): warning C4267: 'initializing' : conversion from 'size_t' to 'const uint', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(233): error C2668: 'memmove' : ambiguous call to overloaded function
+                 c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(229): could be 'void *memmove(void *,const void *,int)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(139): or       'void *memmove(void *,const void *,size_t)'
+                 while trying to match the argument list '(void *, const void *, uint)'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\tag.h(118): warning C4267: 'initializing' : conversion from 'size_t' to 'const int', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_algobase.h(149): error C2668: 'memmove' : ambiguous call to overloaded function
+                 c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(229): could be 'void *memmove(void *,const void *,int)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(139): or       'void *memmove(void *,const void *,size_t)'
+                 while trying to match the argument list '(void *, const void *, __int64)'
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_algobase.h(184): error C2668: 'memmove' : ambiguous call to overloaded function
+                 c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(229): could be 'void *memmove(void *,const void *,int)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(139): or       'void *memmove(void *,const void *,size_t)'
+                 while trying to match the argument list '(char *, const void *, const ptrdiff_t)'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(77): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(77): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(77): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(82): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(82): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(82): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(87): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(87): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(87): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(94): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(94): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(94): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(99): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(99): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(99): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(104): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(104): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(104): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(111): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(111): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(111): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(119): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(119): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(119): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(127): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(127): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(127): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(132): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(132): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(132): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(139): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(139): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(139): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(146): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(146): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(146): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(153): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(153): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(153): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(159): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(159): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(159): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(164): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(164): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(164): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(171): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(171): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(171): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(179): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(179): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(179): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(184): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(184): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(184): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(189): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(189): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(189): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(196): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(196): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(196): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(203): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(203): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(203): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(211): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(211): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(211): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(219): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(219): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(219): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(224): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(224): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(224): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(231): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(231): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(231): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(236): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(236): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(236): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(241): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(241): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(241): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(247): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(247): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(247): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(253): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(253): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(253): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(260): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(260): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(260): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(266): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(266): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(266): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(276): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(276): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(276): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(283): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(283): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(283): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(289): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(289): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(289): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(295): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(295): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(295): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(301): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(301): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(301): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(307): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(307): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(307): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(313): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(313): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(313): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(319): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(319): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(319): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(325): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(325): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(325): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(331): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(331): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(331): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(337): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(337): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(337): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(345): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(345): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(345): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(350): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(350): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(350): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(357): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(357): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(357): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(362): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(362): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(362): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(367): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(367): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(367): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(373): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(373): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(373): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(378): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(378): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(378): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(383): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(383): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(383): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(388): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(388): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(388): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(393): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(393): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(393): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(398): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(398): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(398): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(403): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(403): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(403): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(408): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(408): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(408): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(413): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(413): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(413): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(418): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(418): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(418): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(423): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(423): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(423): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(429): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(429): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(429): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(435): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(435): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(435): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(443): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(443): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(443): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(449): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(449): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(449): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(457): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(457): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(457): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(465): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(465): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(465): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(470): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(470): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(470): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(475): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(475): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(475): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(482): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(482): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(482): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(490): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(490): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(490): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(495): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(495): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(495): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(507): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(507): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(507): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(512): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(512): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(512): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(518): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(518): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(518): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(524): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(524): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(524): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(529): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(529): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(529): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(534): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(534): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(534): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(541): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(541): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(541): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(546): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(546): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(546): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(551): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(551): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(551): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(557): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(557): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(557): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(562): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(562): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(562): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(567): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(567): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(567): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(574): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(574): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(574): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(581): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(581): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(581): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(589): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(589): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(589): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(597): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(597): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(597): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(602): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(602): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(602): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(607): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(607): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(607): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(612): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(612): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(612): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(617): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(617): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(617): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(622): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(622): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(622): error C2143: syntax error : missing ';' before 'constant'
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(630): error C4235: nonstandard extension used : '__asm' keyword not supported on this architecture
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(630): warning C4091: '' : ignored on left of 'int' when no variable is declared
+     1>c:\users\kyle\documents\swg_client_next\src\engine\client\application\dllexport\src\win32\dllexport.cpp(630): error C2143: syntax error : missing ';' before 'constant'
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\engine\client\application\DllExport\build\win32\DllExport.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.69

@@ -1,0 +1,11 @@
+﻿Build started 5/27/2016 11:02:57 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\engine\shared\library\sharedLog\build\win32\sharedLog.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\boost /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\..\..\..\external\ours\library\archive\include /I..\..\..\..\..\..\external\ours\library\fileInterface\include\public /I..\..\..\..\..\..\external\ours\library\localization\include /I..\..\..\..\..\..\external\ours\library\unicode\include /I..\..\..\..\..\..\external\ours\library\unicodeArchive\include\public /I..\..\..\sharedDebug\include\public /I..\..\..\sharedFile\include\public /I..\..\..\sharedFoundation\include\public /I..\..\..\sharedFoundationTypes\include\public /I..\..\..\sharedMath\include\public /I..\..\..\sharedMathArchive\include\public /I..\..\..\sharedMemoryBlockManager\include\public /I..\..\..\sharedMemoryManager\include\public /I..\..\..\sharedMessageDispatch\include\public /I..\..\..\sharedNetwork\include\public /I..\..\..\sharedNetworkMessages\include\public /I..\..\..\sharedObject\include\public /I..\..\..\sharedRandom\include\public /I..\..\..\sharedSynchronization\include\public /I..\..\include\private /I..\..\include\public /Zi /nologo /W4 /WX- /Od /Ob1 /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _USE_32BIT_TIME_T=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Yc"sharedLog\FirstSharedLog.h" /Fp"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\sharedLog.pch" /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\sharedLog_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\shared\FirstSharedLog.cpp
+         FirstSharedLog.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\engine\shared\library\sharedLog\build\win32\sharedLog.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

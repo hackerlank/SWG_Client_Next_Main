@@ -1,0 +1,20 @@
+﻿Build started 5/27/2016 10:22:54 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\ours\library\unicodeArchive\build\win32\unicodeArchive.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\..\..\..\external\ours\library\archive\include /I..\..\..\..\..\..\external\ours\library\unicode\include /I..\..\include\public /I..\..\include\private /Zi /nologo /W4 /WX- /Od /Ob1 /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _USE_32BIT_TIME_T=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Yc"unicodeArchive\FirstUnicodeArchive.h" /Fp"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\unicodeArchive.pch" /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\unicodeArchive_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\FirstUnicodeArchive.cpp
+         FirstUnicodeArchive.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\..\..\..\external\ours\library\archive\include /I..\..\..\..\..\..\external\ours\library\unicode\include /I..\..\include\public /I..\..\include\private /Zi /nologo /W4 /WX- /Od /Ob1 /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _USE_32BIT_TIME_T=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\unicodeArchive_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\shared\UnicodeArchive.cpp ..\..\src\shared\UnicodeAutoDeltaPackedMap.cpp
+         UnicodeArchive.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string(24): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         UnicodeAutoDeltaPackedMap.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\cmath(21): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\cmath' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         Generating Code...
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\ours\library\unicodeArchive\build\win32\unicodeArchive.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.83

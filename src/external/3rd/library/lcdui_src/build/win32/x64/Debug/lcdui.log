@@ -1,0 +1,42 @@
+﻿Build started 5/27/2016 10:22:55 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\3rd\library\lcdui_src\build\win32\lcdui.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\lcdui /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\..\..\..\external\ours\library\fileInterface\include\public /I..\..\..\archive\include /I..\..\..\unicode\include /I..\..\src\win32 /I..\..\src\win32\LCDUI /Zi /nologo /W4 /WX- /Od /Ob1 /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _USE_32BIT_TIME_T=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\lcdui_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\EZ_LCD.cpp ..\..\src\win32\EZ_LCD_Page.cpp ..\..\src\win32\LCDUI\LCDAnimatedBitmap.cpp ..\..\src\win32\LCDUI\LCDBase.cpp ..\..\src\win32\LCDUI\LCDBitmap.cpp ..\..\src\win32\LCDUI\LCDCollection.cpp ..\..\src\win32\LCDUI\LCDGfx.cpp ..\..\src\win32\LCDUI\LCDIcon.cpp ..\..\src\win32\LCDUI\LCDManager.cpp ..\..\src\win32\LCDUI\LCDOutput.cpp ..\..\src\win32\LCDUI\LCDProgressBar.cpp ..\..\src\win32\LCDUI\LCDScrollingText.cpp ..\..\src\win32\LCDUI\LCDStreamingText.cpp ..\..\src\win32\LCDUI\LCDText.cpp ..\..\src\win32\LCDUI\lcdui.cpp ..\..\src\win32\LCDUI\stdafx.cpp
+         EZ_LCD.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         EZ_LCD_Page.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDAnimatedBitmap.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDBase.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDBitmap.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDCollection.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDGfx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDIcon.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDManager.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDOutput.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDProgressBar.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDScrollingText.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDStreamingText.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         LCDText.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         lcdui.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         stdafx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         Generating Code...
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\3rd\library\lcdui_src\build\win32\lcdui.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.95

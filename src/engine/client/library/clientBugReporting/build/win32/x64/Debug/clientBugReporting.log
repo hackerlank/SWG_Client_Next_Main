@@ -1,0 +1,16 @@
+﻿Build started 5/27/2016 10:22:26 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\engine\client\library\clientBugReporting\build\win32\clientBugReporting.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\..\..\..\external\3rd\library\blat194\src\win32 /I..\..\..\..\..\shared\library\sharedDebug\include\public /I..\..\..\..\..\shared\library\sharedFoundation\include\public /I..\..\..\..\..\shared\library\sharedFoundationTypes\include\public /I..\..\..\..\..\shared\library\sharedIoWin\include\public /I..\..\..\..\..\shared\library\sharedMemoryManager\include\public /I..\..\include\private /I..\..\include\public /Zi /nologo /W4 /WX- /Od /Ob1 /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Yc"clientBugReporting\FirstClientBugReporting.h" /Fp"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\clientBugReporting.pch" /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\clientBugReporting_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\FirstClientBugReporting.cpp
+         FirstClientBugReporting.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(149): warning C4267: 'initializing' : conversion from 'size_t' to 'const uint', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(174): warning C4267: 'initializing' : conversion from 'size_t' to 'const uint', possible loss of data
+     1>c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(233): error C2668: 'memmove' : ambiguous call to overloaded function
+                 c:\users\kyle\documents\swg_client_next\src\engine\shared\library\sharedfoundation\src\shared\misc.h(229): could be 'void *memmove(void *,const void *,int)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(139): or       'void *memmove(void *,const void *,size_t)'
+                 while trying to match the argument list '(void *, const void *, uint)'
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\engine\client\library\clientBugReporting\build\win32\clientBugReporting.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.92

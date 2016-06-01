@@ -1,0 +1,33 @@
+﻿Build started 5/27/2016 10:22:53 PM.
+     1>Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\ours\library\unicode\build\win32\unicode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\sharedDebug\include /I..\..\..\sharedFoundation\include /I..\..\..\sharedFoundationTypes\include /I..\..\..\sharedMemoryManager\include /I..\..\src\shared /I..\..\src\win32 /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _USE_32BIT_TIME_T=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Yc"FirstUnicode.h" /Fp"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\unicode.pch" /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\unicode_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\win32\FirstUnicode.cpp
+         FirstUnicode.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\..\..\external\3rd\library\stlport453\stlport /I..\..\..\sharedDebug\include /I..\..\..\sharedFoundation\include /I..\..\..\sharedFoundationTypes\include /I..\..\..\sharedMemoryManager\include /I..\..\src\shared /I..\..\src\win32 /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _MBCS /D DEBUG_LEVEL=2 /D _CRT_SECURE_NO_DEPRECATE=1 /D _USE_32BIT_TIME_T=1 /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\\" /Fd"C:\Users\Kyle\Documents\SWG_Client_Next\src\build\win32\x64\Debug\unicode_d.pdb" /Gd /TP /FC /errorReport:prompt ..\..\src\shared\Unicode.cpp ..\..\src\shared\UnicodeBlocks.cpp ..\..\src\shared\UnicodeCharacterData.cpp ..\..\src\shared\UnicodeCharacterDataMap.cpp ..\..\src\shared\UnicodeUtils.cpp ..\..\src\shared\utf8.cpp
+         Unicode.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string(24): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         UnicodeBlocks.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string(24): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         UnicodeCharacterData.cpp
+         UnicodeCharacterDataMap.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\map(31): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\map' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         UnicodeUtils.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string(24): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         utf8.cpp
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h(16): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\stl\_prolog.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string.h(18): warning C4103: 'c:\users\kyle\documents\swg_client_next\src\external\3rd\library\stlport453\stlport\string.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(557): fatal error C1189: #error :  You cannot use 32-bit time_t (_USE_32BIT_TIME_T) with _WIN64
+         Generating Code...
+     1>Done Building Project "C:\Users\Kyle\Documents\SWG_Client_Next\src\external\ours\library\unicode\build\win32\unicode.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.18
